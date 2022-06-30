@@ -5,6 +5,7 @@ create a table in postgres initailly
 
 
 code
+connect.py
 
 from fastapi import FastAPI, status, HTTPException
 from pydantic import Json
