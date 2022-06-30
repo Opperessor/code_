@@ -44,7 +44,7 @@ def delete_values(price: int):
       items = execute_query(insert_query, values, with_result=False)
       return items
       
-#######################################################################################################################################################
+
 database.py
 
 from sqlalchemy.orm import declarative_base
